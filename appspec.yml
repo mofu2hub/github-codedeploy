@@ -2,5 +2,5 @@ version: 0.0
 os: linux
 
 files:
-  - source: test.txt
+  - source: src
     destination: /home/ec2-user/deploytest
