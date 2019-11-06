@@ -6,6 +6,7 @@ phases:
       java: corretto11
   build:
     commands:
+      - echo test
       - echo $CODEBUILD_WEBHOOK_TRIGGER
 artifacts:
   files:
